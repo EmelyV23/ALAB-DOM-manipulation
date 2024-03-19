@@ -12,3 +12,12 @@ mainE1.innerHTML = 'DOM Manipulation'
 //Add a class of flex-ctr to mainEl.
 //Hint: Use the Element.classList API.
 mainE1.classList.add('flex-ctr');
+
+const topMenuEl = ("top-menu");
+// Menu data structure
+var menuLinks = [
+    { text: 'about', href: '/about' },
+    { text: 'catalog', href: '/catalog' },
+    { text: 'orders', href: '/orders' },
+    { text: 'account', href: '/account' },
+  ];

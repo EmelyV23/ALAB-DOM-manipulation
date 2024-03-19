@@ -30,14 +30,20 @@
     align-items: center;
   }
   
-  nav a {
+  nav a{
     line-height: 3rem;
     padding: 0 1rem;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
   }
-  
+  nav {
+    height: 100%;
+    background-color: #0e9aa7;
+    text-align: center;
+
+  }
+
   #top-menu a:hover {
     background-color: var(--sub-menu-bg);
   }
